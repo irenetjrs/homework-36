@@ -25,3 +25,13 @@ function maxSalary(salaries) {
 return maxName;
 }
 console.log(maxSalary(salaries));
+
+// task3
+
+let userss = {
+   mike: 'Mike',
+   bob: 'Bob',
+   nikola: 'Nikola'
+};
+let {mike: userMike, bob: userBob, nikola: userNikola} = userss;
+console.log(userBob);
